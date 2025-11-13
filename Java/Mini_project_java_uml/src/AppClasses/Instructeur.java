@@ -15,7 +15,7 @@ public class Instructeur {
     }
     public void assignerCours(Cours cours){
         coursEnseignes.add(cours);
-        System.out.println("Etudient est ajouter avec succes");
+        System.out.println("Instructeur est ajouter avec succes");
     }
     public void afficherCours(){
         System.out.printf("Instractor : %s\n",nom);
