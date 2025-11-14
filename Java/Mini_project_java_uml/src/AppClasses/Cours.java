@@ -29,8 +29,8 @@ public class Cours {
         if (instructeur != null){
             System.out.print("\nCours assigne par : "+instructeur);
         }
-        for (int i = 0 ; i < etudiants.size();i++){
-            System.out.println("Student : "+etudiants.get(i).studentId);
+        for (Etudiant etudiant : etudiants) {
+            System.out.println("Student : " + etudiant.studentId);
         }
     }
 
